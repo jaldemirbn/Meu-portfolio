@@ -279,7 +279,7 @@ export default function App() {
               </em>
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Sou <span className="text-primary font-medium">Seu Nome</span>, Desenvolvedor Front-End{" "}
+              Sou <span className="text-primary font-medium">José Aldemir</span>, Desenvolvedor Front-End{" "}
               <span className="text-primary">focado em criar interfaces modernas, responsivas e funcionais.</span>
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
