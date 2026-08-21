@@ -535,7 +535,7 @@ export default function App() {
             <div className="flex items-center justify-center gap-5">
               {[
                 { icon: <Linkedin size={16} />, href: "https://linkedin.com" },
-                { icon: <Github size={16} />, href: "https://github.com" },
+                { icon: <Github size={16} />, href: "https://github.com/jaldemirbn" },
                 { icon: <Instagram size={16} />, href: "https://instagram.com" },
               ].map(({ icon, href }, i) => (
                 <a
