@@ -241,7 +241,7 @@ export default function App() {
               <img
                 src={fotoPerfil}
                 alt="Front-End Developer"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
               {/* Badge */}
               <div className="absolute bottom-5 left-5 bg-card/90 backdrop-blur-sm border border-border rounded-xl px-4 py-2.5 flex items-center gap-2.5">
@@ -259,6 +259,7 @@ export default function App() {
           </div>
         </div>
       </section>
+
 
       {/* ── SOBRE ── */}
       <section id="sobre" className="py-28 border-t border-border">
