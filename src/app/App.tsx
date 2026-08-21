@@ -160,12 +160,10 @@ export default function App() {
                 {label}
               </button>
             ))}
-            <a
-                href="https://wa.me/5585987154528"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 px-7 py-3 bg-primary text-primary-foreground rounded-full text-xs font-bold tracking-widest hover:opacity-90 transition-opacity"
-              >
+            <button
+              onClick={() => scrollTo("#contato")}
+              className="mt-1 px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-xs font-semibold tracking-wider"
+            >
               FALE COMIGO
             </button>
           </div>
