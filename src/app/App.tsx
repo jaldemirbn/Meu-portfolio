@@ -239,7 +239,7 @@ export default function App() {
           <div className="hidden md:flex justify-end">
             <div className="relative w-[420px] h-[480px] rounded-2xl overflow-hidden bg-muted border border-border/30">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=840&h=960&fit=crop&auto=format"
+                src="../minha-foto.png"
                 alt="Front-End Developer"
                 className="w-full h-full object-cover grayscale"
               />
