@@ -160,10 +160,12 @@ export default function App() {
                 {label}
               </button>
             ))}
-            <button
-              onClick={() => scrollTo("#contato")}
-              className="mt-1 px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-xs font-semibold tracking-wider"
-            >
+            <a
+                href="https://wa.me/5585987154528"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 px-7 py-3 bg-primary text-primary-foreground rounded-full text-xs font-bold tracking-widest hover:opacity-90 transition-opacity"
+              >
               FALE COMIGO
             </button>
           </div>
@@ -218,9 +220,9 @@ export default function App() {
             </div>
             <div className="flex items-center gap-4">
               {[
-                { icon: <Linkedin size={16} />, href: "https://linkedin.com" },
-                { icon: <Github size={16} />, href: "https://github.com" },
-                { icon: <Instagram size={16} />, href: "https://instagram.com" },
+                { icon: <Linkedin size={16} />, href: "https://www.linkedin.com/in/jos%C3%A9-aldemir-2478a32bb/" },
+                { icon: <Github size={16} />, href: "https://github.com/jaldemirbn" },
+                { icon: <Instagram size={16} />, href: "https://www.instagram.com/j_aldemir/" },
               ].map(({ icon, href }, i) => (
                 <a
                   key={i}
