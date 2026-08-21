@@ -523,20 +523,20 @@ export default function App() {
                 <MessageCircle size={14} /> WHATSAPP
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/j_aldemir/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 px-7 py-3 border border-border rounded-full text-xs font-semibold tracking-widest text-foreground hover:border-primary/40 transition-colors"
               >
-                @SEU.INSTAGRAM
+                @j_aldemir
               </a>
             </div>
 
             <div className="flex items-center justify-center gap-5">
               {[
-                { icon: <Linkedin size={16} />, href: "https://linkedin.com" },
+                { icon: <Linkedin size={16} />, href: "https://www.linkedin.com/in/jos%C3%A9-aldemir-2478a32bb/" },
                 { icon: <Github size={16} />, href: "https://github.com/jaldemirbn" },
-                { icon: <Instagram size={16} />, href: "https://instagram.com" },
+                { icon: <Instagram size={16} />, href: "https://www.instagram.com/j_aldemir/" },
               ].map(({ icon, href }, i) => (
                 <a
                   key={i}
