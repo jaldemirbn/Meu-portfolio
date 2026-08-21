@@ -239,9 +239,9 @@ export default function App() {
           <div className="hidden md:flex justify-end">
             <div className="relative w-[420px] h-[480px] rounded-2xl overflow-hidden bg-muted border border-border/30">
               <img
-                src={fotoPerfil}
+                src="../../minha-foto.png"
                 alt="Front-End Developer"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover grayscale"
               />
               {/* Badge */}
               <div className="absolute bottom-5 left-5 bg-card/90 backdrop-blur-sm border border-border rounded-xl px-4 py-2.5 flex items-center gap-2.5">
@@ -259,7 +259,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
 
       {/* ── SOBRE ── */}
       <section id="sobre" className="py-28 border-t border-border">
